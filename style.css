@@ -8,7 +8,7 @@ html{
 }
 
 div {
-    height: 400px;
+    height: 430px;
     width: 270px;
     background: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
     border-radius: 17px;
@@ -44,4 +44,75 @@ img:hover{
 }
 .name:hover{
     cursor: pointer;
-}    
+    
+}
+.color{
+    color: gray;
+    text-shadow: 5px 5px 5px rgba(80, 75, 75, 0.521);
+
+}
+
+.color:hover{
+    cursor: pointer;
+    color: #1d1d1f;
+}
+
+input{
+    width: 240px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    color: rgb(33, 33, 255);
+}
+
+.time{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.nam{
+    display:inline-block;
+    font-family: 'Franklin Gothic Medium';
+    color:white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px ;
+    margin-top: 5px;
+}
+.time1{
+    display:inline-block;
+    font-family:'Franklin Gothic Medium';
+    color:white;
+    padding-right: 130px;
+    margin-left: 0px;
+
+}
+.time2{
+    display:inline-block;
+    font-family:'Franklin Gothic Medium';
+    color:white;
+    padding-right: 0px; 
+}
+ul{
+    display: inline-block;
+    
+}
+
+li{
+    display: inline-block;
+    /*margin : 0px auto;*/
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+button{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+button:hover{
+    border-color: #bebebe;
+}  
