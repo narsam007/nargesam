@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+    background: linear-gradient(#0046ae, #9198e5);
+}
+
+div {
+    height: 400px;
+    width: 270px;
+    background: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    border-radius: 17px;
+    margin: auto;
+    margin-top: 121px;
+    box-shadow: 2px 2px 2px rgb(53, 49, 49);
+}
+
+div:hover{
+    background: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+}
