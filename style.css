@@ -20,3 +20,22 @@ div {
 div:hover{
     background: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(34, 33, 33);
+    border-top: 15;
+}
+img {
+    height: 230px;
+    width: 230px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+img:hover{
+    box-shadow: 3px 3px 3px #1d1d1f;
+    transition: 0.5s;
+}
